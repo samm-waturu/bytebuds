@@ -15,8 +15,8 @@ function ServiceSect() {
                             <li>
                                 <a className="button n01">
                                 <span onClick={() => {
-                                    navigate('/soon')
-                                }} className="label">View Projects </span>
+                                    navigate('/works')
+                                }} className="label">View Works </span>
                                 </a>
                             </li>
                         </ul>

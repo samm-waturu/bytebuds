@@ -14,6 +14,9 @@ import OutroB from "./components/OutroB";
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 // import Scroll from "./components/SmoothScroll";
 import './App.css'
+import Error from "./components/Error";
+import Works from "./components/Works";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -45,16 +48,12 @@ function App() {
 
                 (
                     <Router>
-
                         {/*<Scroll/>*/}
-
-
                         <div id="wrapper">
 
                             <Cursor/>
 
                             <Routes>
-
                                 <Route path='/' element={[
                                     <div id={'main'}>
 
@@ -86,6 +85,26 @@ function App() {
                                         {/* SVG section */}
                                     </div>
                                 ]}/>
+                                <Route path='/works' element={
+                                    <div id='main'>
+
+                                        <div className={'inner'}>
+
+                                            <section id={'home-section'}>
+
+                                                <Works/>
+
+                                            </section>
+
+                                            {/*Outro */}
+
+                                            <OutroB/>
+
+                                        </div>
+
+                                        {/* SVG section */}
+                                    </div>
+                                }/>
                                 <Route path='/soon' element={[
                                     <div id={'main'}>
 
@@ -106,6 +125,46 @@ function App() {
                                         {/* SVG section */}
                                     </div>
                                 ]}/>
+                                <Route path='/reach' element={
+                                    [
+                                        <div id={'main'}>
+
+                                            <div className={'inner'}>
+
+                                                <section id={'home-section'}>
+
+                                                    <Contact/>
+
+                                                </section>
+
+                                                {/*Outro */}
+
+                                                <OutroB/>
+
+                                            </div>
+
+                                            {/* SVG section */}
+                                        </div>
+                                    ]}/>
+                                <Route path='*' element={
+                                    <div id={'main'}>
+
+                                        <div className={'inner'}>
+
+                                            <section id={'home-section'}>
+
+                                                <Error/>
+
+                                            </section>
+
+                                            <OutroB/>
+                                            {/*Outro */}
+
+                                        </div>
+
+                                        {/* SVG section */}
+                                    </div>
+                                }/>
                             </Routes>
                         </div>
 

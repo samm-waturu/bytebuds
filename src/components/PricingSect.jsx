@@ -21,14 +21,13 @@ function PricingSect() {
                     </div>
                 </div>
             </div>
-
             <div id="container03" className="container columns">
                 <div className="wrapper">
                     <div className="inner">
                         <div>
                             <h3 id="text30" className="style4">FrontEnd</h3>
-                            <h2 id="text22">$110 to $367</h2>
-                            <h3 id="text05" className="style4">15000Ksh to 50000Ksh </h3>
+                            <h2 id="text22">$110 to $588</h2>
+                            <h3 id="text05" className="style4">15000Ksh to 80000Ksh</h3>
                             <h3 id="text05" className="style6">UI | UX </h3>
                             <p id="text24" className="style5">
                                 A great tier for photographers,
@@ -45,12 +44,12 @@ function PricingSect() {
                         </div>
                         <div>
                             <h3 id="text30" className="style4">FullStack</h3>
-                            <h2 id="text32">$220 to $1102</h2>
-                            <h3 id="text05" className="style4">30000Ksh to 150000Ksh </h3>
+                            <h2 id="text32">$220 to $1838</h2>
+                            <h3 id="text05" className="style4">30000Ksh to 250000Ksh</h3>
                             <h3 id="text05" className="style6">UI | UX & Logic </h3>
                             <p id="text24" className="style5">
                                 A great tier for serious individuals who wants to venture into the e-commerce.
-                                This tier includes various advanced capabilities, great for web apps and systems.
+                                This tier includes advanced features, great for web apps and systems.
                             </p>
                             <ul id="buttons03" className="buttons">
                                 <li>

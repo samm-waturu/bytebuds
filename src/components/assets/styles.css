@@ -1453,3 +1453,22 @@ hr:before {
     width: 1px
 }
 
+#overlay {
+    background: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    padding: 45px 0 66px 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.25s ease;
+    -moz-transition: opacity 0.25s ease;
+}
+
+#image01:hover #overlay {
+    opacity: 1;
+}
+
+#plus {
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 96px;
+}

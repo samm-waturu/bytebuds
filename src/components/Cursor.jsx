@@ -44,11 +44,11 @@ function Cursor() {
     }
 
     const animateDocOutline = () => {
-        _X.current += (endX.current - _X.current) /delay
-        _Y.current += (endY.current - _Y.current) /delay
+        _X.current += (endX.current - _X.current ) /delay
+        _Y.current += (endY.current - _Y.current ) /delay
 
-        dotOutline.current.style.top = _Y.current + 'px';
-        dotOutline.current.style.left = _X.current + 'px';
+        dotOutline.current.style.top = _Y.current  + 'px';
+        dotOutline.current.style.left = _X.current  + 'px';
 
         requestRef.current = requestAnimationFrame(animateDocOutline)
     }

@@ -8,7 +8,7 @@
     transform: translate(-50%, -50%);
     border-radius: 50%;
     opacity: 1;
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .cursor-dot {
@@ -21,4 +21,9 @@
     width: 40px;
     height: 40px;
     background-color: rgba(158, 82, 119, 0.72);
+}
+
+#links:hover{
+    color: rgba(239, 239, 239, 0.98);
+    transition: all .5s ease-in-out ;
 }

@@ -43,7 +43,8 @@ function WhoSect() {
                                alt=""/></div>
                            <h3 id="text26">Next.JS</h3>
                            <p id="text21" className="style5">We specialize in Next.Js.<br/>Built on top of React, It provides additional features
-                               such as server-side rendering, automatic code splitting, and static site generation.</p></div>
+                               such as server-side rendering, automatic code splitting, and static site generation.</p>
+                       </div>
                    </div>
                </div>
            </div>
