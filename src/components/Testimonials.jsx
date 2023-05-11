@@ -14,9 +14,9 @@ function Testimonials() {
                                 src={placeHolder}
                                 alt=""/></div>
                             <h3 id="text34" className="style4">Team</h3>
-                            <h3 id="text19" className="style6">Joe Kigathi</h3>
-                            <p id="text20" className="style5">As a developer at ByteBuds the quality of code and passion that goes into projects
-                                is unmatched. Making something that leaves an impression ain't easy </p></div>
+                            <h3 id="text19" className="style6">Stephen</h3>
+                            <p id="text20" className="style5">The attention to detail,
+                                typography and design ethics is what i adored with these ByteBuds developers</p></div>
                     </div>
                 </div>
         </>

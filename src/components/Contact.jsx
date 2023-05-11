@@ -20,7 +20,7 @@ function Contact() {
                         </p>
                         <ul id="icons01" className="style1 icons">
                             <li>
-                                <a className="n01" href="tel:+254791881086">
+                                <a className="n01" href="tel:+254768989025">
 
                                     <svg>
                                         <PhoneIcon/>
@@ -28,7 +28,7 @@ function Contact() {
                                     <span className="label">Phone number</span></a>
                             </li>
                             <li>
-                                <a className="n02" href="https://wa.me/+254791881086">
+                                <a className="n02" href="https://wa.me/+254768989025">
                                     <svg>
                                         <WhatsAppIcon/>
                                     </svg>
@@ -36,7 +36,7 @@ function Contact() {
                                 </a>
                             </li>
                             <li>
-                                <a className="n02" href="https://wa.me/+254791881086">
+                                <a className="n02" href="mailto: muiruri.samwel@outlook.com">
                                     <svg>
                                         <EmailIcon/>
                                     </svg>

@@ -17,7 +17,7 @@ function Soon() {
                         </p>
                         <ul id="buttons01" className="style1 buttons">
                             <li>
-                                <a href="tel:+254791881086" className="button n01">
+                                <a href="tel:+254768989025" className="button n01">
                                     <span className="label">Reach us</span>
                                 </a>
                             </li>
